@@ -7,3 +7,16 @@
         width: 60px !important
     }
 }
+
+
+.post_textarea{
+    border: none !important;
+    resize: none;
+    outline: none !important;
+    font-size: 1.4rem;
+}
+
+.post_textarea:focus{
+    outline: none !important;
+    box-shadow: inset 0 -1px 0 #ddd !important;
+}

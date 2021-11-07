@@ -1,9 +1,10 @@
 import React from 'react'
+import PostForm from '../components/PostForm'
 
 function QuestionScreen() {
     return (
-        <div>
-            <h1>QuestionScreen</h1>
+        <div className='container'>
+            <PostForm />
         </div>
     )
 }

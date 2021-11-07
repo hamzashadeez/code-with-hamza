@@ -12,11 +12,12 @@ function Header() {
                 <Link to='/'>
                     <i className="fa icon fa-tv text-dark mx-1 btn" style={{fontSize: "30px", margin: 0}}></i>
                 </Link>
-                <Link to='/profile'>
-                    <i className="fa icon fa-user-o text-dark btn" style={{fontSize: "30px",  margin: 0}}></i>
-                </Link>
+                
                 <Link to='/question'>
                     <i className="fa icon fa-pencil-square-o text-dark mx-1 btn" style={{fontSize: "30px", margin: 0}}></i>
+                </Link>
+                <Link to='/profile'>
+                    <i className="fa icon fa-user-o text-dark btn" style={{fontSize: "30px",  margin: 0}}></i>
                 </Link>
             </div>
         </HeaderCom>

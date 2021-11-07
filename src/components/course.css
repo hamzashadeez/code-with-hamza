@@ -1,0 +1,11 @@
+.course{
+    min-width: 150px;
+    height: 175px;
+    background-color: #b9b7b7;
+    margin: 0 10px;
+    scroll-snap-align: start;
+}
+
+.course:first-child{
+    margin-left: 0;
+}
