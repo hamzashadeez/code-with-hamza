@@ -6,7 +6,7 @@ import './header.css'
 
 function Header() {
     return (
-        <HeaderCom className='shadow-sm'>
+        <HeaderCom className='shadow-sm fixed-top'>
             <img alt='' src={Logo} className='logo_' style={{width:'80px', margin: 0}} />
             <div className='px-1'>
                 <Link to='/'>

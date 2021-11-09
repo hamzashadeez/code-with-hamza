@@ -3,7 +3,7 @@ import './course.css'
 
 function Course() {
     return (
-        <div className='course'>
+        <div className='course m-2'>
             
         </div>
     )
